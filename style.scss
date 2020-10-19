@@ -109,6 +109,9 @@ header {
     section.skills {
         font-size: 0.9rem;
         line-height: 1.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-align: center;
 
 
@@ -130,6 +133,7 @@ header {
 
         }
 
+
         .desc-skills {
             display: flex;
             flex-direction: column;
@@ -141,6 +145,9 @@ header {
     }
 
     section.projects {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-align: center;
 
         h2 {
@@ -173,12 +180,10 @@ header {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            text-align: center;
             padding: 2rem;
         }
 
-        .icon {
-            padding-bottom: 1rem;
-        }
 
 
     }
