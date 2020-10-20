@@ -109,7 +109,7 @@ header {
     section.skills {
         font-size: 0.9rem;
         line-height: 1.6rem;
-        display: flex;
+
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -129,7 +129,8 @@ header {
             grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
             grid-gap: 2.5rem;
             text-align: center;
-
+            align-items: center;
+            justify-content: center;
 
         }
 
@@ -207,6 +208,7 @@ footer {
     html {
         font-size: 21px;
     }
+
 }
 
 @media only screen and (min-width: 1800px) {
