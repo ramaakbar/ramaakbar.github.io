@@ -48,7 +48,7 @@ header nav ul {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 100%;
-  margin: 0s;
+  margin: 0;
   padding: 0;
 }
 
@@ -173,9 +173,6 @@ header nav ul li a {
 }
 
 .wrapper section.projects {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
